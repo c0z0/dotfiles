@@ -1,0 +1,7 @@
+[user]
+	email = cosmin@cserdean.com
+	name = Cosmin Serdean
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
