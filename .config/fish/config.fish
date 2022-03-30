@@ -13,11 +13,14 @@ switch (uname)
 
     case Darwin
         # homebrew
-        fish_add_path /opt/homebrew/bin/
+        fish_add_path /opt/homebrew/bin
 
         # asdf
         source /opt/homebrew/opt/asdf/libexec/asdf.fish
 end
+
+# add pip executables to path
+fish_add_path $HOME/.local/bin
 
 
 # aliases
