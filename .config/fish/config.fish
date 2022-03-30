@@ -10,7 +10,7 @@ switch (uname)
         # Commands to run on Linux
         # asdf
         source ~/.asdf/asdf.fish
-    
+
     case Darwin
         # homebrew
         fish_add_path /opt/homebrew/bin/
@@ -21,7 +21,7 @@ end
 
 
 # aliases
-alias vim="/usr/local/bin/nvim"
+alias vim="nvim"
 alias p="pnpm"
 
 # vim mode
