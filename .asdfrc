@@ -1,0 +1,3 @@
+# .nvmrc and .node-version support
+legacy_version_file = yes
+

@@ -1,0 +1,9 @@
+command_timeout = 2000
+
+[gcloud]
+disabled = true
+[package]
+disabled = true
+
+[nodejs]
+version_format = "v${major}"
