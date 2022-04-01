@@ -1,3 +1,5 @@
+#!/opt/homebrew/bin/fish
+
 cd (pwd)/(dirname (status -f))
 
 function bootstrap
