@@ -5,6 +5,8 @@ end
 # remove welcome message
 set -U fish_greeting ""
 
+alias x="pnpx"
+
 switch (uname)
     case Linux
         # Commands to run on Linux
@@ -26,6 +28,10 @@ fish_add_path $HOME/.local/bin
 # aliases
 alias vim="nvim"
 alias p="pnpm"
+
+# abbreviations
+abbr -a p pnpm
+abbr -a x pnpx
 
 # vim mode
 fish_vi_key_bindings
