@@ -37,3 +37,6 @@ abbr -a x pnpx
 fish_vi_key_bindings
 
 starship init fish | source
+
+# add rust to path
+fish_add_path $HOME/.cargo/bin
